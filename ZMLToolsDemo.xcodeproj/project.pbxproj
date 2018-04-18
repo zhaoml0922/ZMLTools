@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1F1F0302086E1B3001268C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1F02F2086E1B3001268C0 /* AppDelegate.m */; };
+		B1F1F0332086E1B3001268C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1F0322086E1B3001268C0 /* ViewController.m */; };
+		B1F1F0362086E1B3001268C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F1F0342086E1B3001268C0 /* Main.storyboard */; };
+		B1F1F0392086E1B3001268C0 /* ZMLToolsDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1F1F0372086E1B3001268C0 /* ZMLToolsDemo.xcdatamodeld */; };
+		B1F1F03B2086E1B4001268C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1F1F03A2086E1B4001268C0 /* Assets.xcassets */; };
+		B1F1F03E2086E1B4001268C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F1F03C2086E1B4001268C0 /* LaunchScreen.storyboard */; };
+		B1F1F0412086E1B4001268C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1F0402086E1B4001268C0 /* main.m */; };
+		B1F1F04B2086E1B4001268C0 /* ZMLToolsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1F04A2086E1B4001268C0 /* ZMLToolsDemoTests.m */; };
+		B1F1F0562086E1B4001268C0 /* ZMLToolsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1F0552086E1B4001268C0 /* ZMLToolsDemoUITests.m */; };
+		B1F1F0662086E24C001268C0 /* ZMLToolsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1F0652086E24C001268C0 /* ZMLToolsHelper.m */; };
+		B1F1F0802086E292001268C0 /* MLAlbumListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1F0682086E292001268C0 /* MLAlbumListViewController.m */; };
+		B1F1F0812086E292001268C0 /* LookImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1F06A2086E292001268C0 /* LookImageView.m */; };
+		B1F1F0822086E292001268C0 /* MLSelectImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1F0702086E292001268C0 /* MLSelectImageViewController.m */; };
+		B1F1F0832086E292001268C0 /* MLAlbumListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1F0732086E292001268C0 /* MLAlbumListTableViewCell.m */; };
+		B1F1F0842086E292001268C0 /* MLSelectImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1F0742086E292001268C0 /* MLSelectImageCollectionViewCell.m */; };
+		B1F1F0852086E292001268C0 /* ImagePickerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1F0762086E292001268C0 /* ImagePickerHelper.m */; };
+		B1F1F0862086E292001268C0 /* GetImageGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1F0772086E292001268C0 /* GetImageGroups.m */; };
+		B1F1F0872086E292001268C0 /* SinglePhotoNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1F0782086E292001268C0 /* SinglePhotoNumber.m */; };
+		B1F1F0882086E292001268C0 /* UIhelpTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1F07A2086E292001268C0 /* UIhelpTools.m */; };
+		B1F1F0892086E292001268C0 /* MLAlertCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1F07E2086E292001268C0 /* MLAlertCenter.m */; };
+		B1F1F08A2086E292001268C0 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1F07F2086E292001268C0 /* UIViewExt.m */; };
+		B1F1F0972086E31F001268C0 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1F08B2086E31C001268C0 /* UIColor+HexString.m */; };
+		B1F1F0982086E31F001268C0 /* UITextField+limitTextF.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1F08C2086E31D001268C0 /* UITextField+limitTextF.m */; };
+		B1F1F0992086E31F001268C0 /* UITextView+limitTextF.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1F08D2086E31D001268C0 /* UITextView+limitTextF.m */; };
+		B1F1F09A2086E31F001268C0 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1F0912086E31E001268C0 /* Util.m */; };
+		B1F1F09B2086E31F001268C0 /* RegularExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1F0932086E31E001268C0 /* RegularExpression.m */; };
+		B1F1F09C2086E31F001268C0 /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1F0962086E31F001268C0 /* NSString+Category.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1F1F0472086E1B4001268C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1F1F0232086E1B3001268C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1F1F02A2086E1B3001268C0;
+			remoteInfo = ZMLToolsDemo;
+		};
+		B1F1F0522086E1B4001268C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1F1F0232086E1B3001268C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1F1F02A2086E1B3001268C0;
+			remoteInfo = ZMLToolsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1F1F02B2086E1B3001268C0 /* ZMLToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZMLToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1F1F02E2086E1B3001268C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1F1F02F2086E1B3001268C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B1F1F0312086E1B3001268C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B1F1F0322086E1B3001268C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B1F1F0352086E1B3001268C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1F1F0382086E1B3001268C0 /* ZMLToolsDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZMLToolsDemo.xcdatamodel; sourceTree = "<group>"; };
+		B1F1F03A2086E1B4001268C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1F1F03D2086E1B4001268C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1F1F03F2086E1B4001268C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1F1F0402086E1B4001268C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1F1F0462086E1B4001268C0 /* ZMLToolsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZMLToolsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1F1F04A2086E1B4001268C0 /* ZMLToolsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMLToolsDemoTests.m; sourceTree = "<group>"; };
+		B1F1F04C2086E1B4001268C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1F1F0512086E1B4001268C0 /* ZMLToolsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZMLToolsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1F1F0552086E1B4001268C0 /* ZMLToolsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMLToolsDemoUITests.m; sourceTree = "<group>"; };
+		B1F1F0572086E1B4001268C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1F1F0642086E24C001268C0 /* ZMLToolsHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMLToolsHelper.h; sourceTree = "<group>"; };
+		B1F1F0652086E24C001268C0 /* ZMLToolsHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMLToolsHelper.m; sourceTree = "<group>"; };
+		B1F1F0682086E292001268C0 /* MLAlbumListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLAlbumListViewController.m; sourceTree = "<group>"; };
+		B1F1F0692086E292001268C0 /* MLSelectImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLSelectImageCollectionViewCell.h; sourceTree = "<group>"; };
+		B1F1F06A2086E292001268C0 /* LookImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookImageView.m; sourceTree = "<group>"; };
+		B1F1F06B2086E292001268C0 /* MLAlbumListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLAlbumListTableViewCell.h; sourceTree = "<group>"; };
+		B1F1F06C2086E292001268C0 /* SinglePhotoNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglePhotoNumber.h; sourceTree = "<group>"; };
+		B1F1F06D2086E292001268C0 /* GetImageGroups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetImageGroups.h; sourceTree = "<group>"; };
+		B1F1F06E2086E292001268C0 /* ImagePickerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerHelper.h; sourceTree = "<group>"; };
+		B1F1F06F2086E292001268C0 /* UIhelpTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIhelpTools.h; sourceTree = "<group>"; };
+		B1F1F0702086E292001268C0 /* MLSelectImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSelectImageViewController.m; sourceTree = "<group>"; };
+		B1F1F0712086E292001268C0 /* MLAlbumListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLAlbumListViewController.h; sourceTree = "<group>"; };
+		B1F1F0722086E292001268C0 /* MLAlbumHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLAlbumHeaders.h; sourceTree = "<group>"; };
+		B1F1F0732086E292001268C0 /* MLAlbumListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLAlbumListTableViewCell.m; sourceTree = "<group>"; };
+		B1F1F0742086E292001268C0 /* MLSelectImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSelectImageCollectionViewCell.m; sourceTree = "<group>"; };
+		B1F1F0752086E292001268C0 /* LookImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookImageView.h; sourceTree = "<group>"; };
+		B1F1F0762086E292001268C0 /* ImagePickerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerHelper.m; sourceTree = "<group>"; };
+		B1F1F0772086E292001268C0 /* GetImageGroups.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetImageGroups.m; sourceTree = "<group>"; };
+		B1F1F0782086E292001268C0 /* SinglePhotoNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglePhotoNumber.m; sourceTree = "<group>"; };
+		B1F1F0792086E292001268C0 /* MLSelectImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLSelectImageViewController.h; sourceTree = "<group>"; };
+		B1F1F07A2086E292001268C0 /* UIhelpTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIhelpTools.m; sourceTree = "<group>"; };
+		B1F1F07B2086E292001268C0 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		B1F1F07D2086E292001268C0 /* MLAlertCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLAlertCenter.h; sourceTree = "<group>"; };
+		B1F1F07E2086E292001268C0 /* MLAlertCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLAlertCenter.m; sourceTree = "<group>"; };
+		B1F1F07F2086E292001268C0 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		B1F1F08B2086E31C001268C0 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		B1F1F08C2086E31D001268C0 /* UITextField+limitTextF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+limitTextF.m"; sourceTree = "<group>"; };
+		B1F1F08D2086E31D001268C0 /* UITextView+limitTextF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+limitTextF.m"; sourceTree = "<group>"; };
+		B1F1F08E2086E31D001268C0 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		B1F1F08F2086E31D001268C0 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		B1F1F0902086E31D001268C0 /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		B1F1F0912086E31E001268C0 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		B1F1F0922086E31E001268C0 /* UITextView+limitTextF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+limitTextF.h"; sourceTree = "<group>"; };
+		B1F1F0932086E31E001268C0 /* RegularExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularExpression.m; sourceTree = "<group>"; };
+		B1F1F0942086E31F001268C0 /* RegularExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularExpression.h; sourceTree = "<group>"; };
+		B1F1F0952086E31F001268C0 /* UITextField+limitTextF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+limitTextF.h"; sourceTree = "<group>"; };
+		B1F1F0962086E31F001268C0 /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1F1F0282086E1B3001268C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1F1F0432086E1B4001268C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1F1F04E2086E1B4001268C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1F1F0222086E1B3001268C0 = {
+			isa = PBXGroup;
+			children = (
+				B1F1F02D2086E1B3001268C0 /* ZMLToolsDemo */,
+				B1F1F0492086E1B4001268C0 /* ZMLToolsDemoTests */,
+				B1F1F0542086E1B4001268C0 /* ZMLToolsDemoUITests */,
+				B1F1F02C2086E1B3001268C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1F1F02C2086E1B3001268C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1F1F02B2086E1B3001268C0 /* ZMLToolsDemo.app */,
+				B1F1F0462086E1B4001268C0 /* ZMLToolsDemoTests.xctest */,
+				B1F1F0512086E1B4001268C0 /* ZMLToolsDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1F1F02D2086E1B3001268C0 /* ZMLToolsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B1F1F02E2086E1B3001268C0 /* AppDelegate.h */,
+				B1F1F02F2086E1B3001268C0 /* AppDelegate.m */,
+				B1F1F0632086E1F2001268C0 /* ZMLTools */,
+				B1F1F0312086E1B3001268C0 /* ViewController.h */,
+				B1F1F0322086E1B3001268C0 /* ViewController.m */,
+				B1F1F0342086E1B3001268C0 /* Main.storyboard */,
+				B1F1F03A2086E1B4001268C0 /* Assets.xcassets */,
+				B1F1F03C2086E1B4001268C0 /* LaunchScreen.storyboard */,
+				B1F1F03F2086E1B4001268C0 /* Info.plist */,
+				B1F1F0402086E1B4001268C0 /* main.m */,
+				B1F1F0372086E1B3001268C0 /* ZMLToolsDemo.xcdatamodeld */,
+			);
+			path = ZMLToolsDemo;
+			sourceTree = "<group>";
+		};
+		B1F1F0492086E1B4001268C0 /* ZMLToolsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1F1F04A2086E1B4001268C0 /* ZMLToolsDemoTests.m */,
+				B1F1F04C2086E1B4001268C0 /* Info.plist */,
+			);
+			path = ZMLToolsDemoTests;
+			sourceTree = "<group>";
+		};
+		B1F1F0542086E1B4001268C0 /* ZMLToolsDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1F1F0552086E1B4001268C0 /* ZMLToolsDemoUITests.m */,
+				B1F1F0572086E1B4001268C0 /* Info.plist */,
+			);
+			path = ZMLToolsDemoUITests;
+			sourceTree = "<group>";
+		};
+		B1F1F0632086E1F2001268C0 /* ZMLTools */ = {
+			isa = PBXGroup;
+			children = (
+				B1F1F0642086E24C001268C0 /* ZMLToolsHelper.h */,
+				B1F1F0652086E24C001268C0 /* ZMLToolsHelper.m */,
+				B1F1F0902086E31D001268C0 /* NSString+Category.h */,
+				B1F1F0962086E31F001268C0 /* NSString+Category.m */,
+				B1F1F0942086E31F001268C0 /* RegularExpression.h */,
+				B1F1F0932086E31E001268C0 /* RegularExpression.m */,
+				B1F1F08F2086E31D001268C0 /* UIColor+HexString.h */,
+				B1F1F08B2086E31C001268C0 /* UIColor+HexString.m */,
+				B1F1F0952086E31F001268C0 /* UITextField+limitTextF.h */,
+				B1F1F08C2086E31D001268C0 /* UITextField+limitTextF.m */,
+				B1F1F0922086E31E001268C0 /* UITextView+limitTextF.h */,
+				B1F1F08D2086E31D001268C0 /* UITextView+limitTextF.m */,
+				B1F1F08E2086E31D001268C0 /* Util.h */,
+				B1F1F0912086E31E001268C0 /* Util.m */,
+				B1F1F07C2086E292001268C0 /* MLAlertCenter */,
+				B1F1F0672086E292001268C0 /* MyAlbum */,
+				B1F1F07B2086E292001268C0 /* UIViewExt.h */,
+				B1F1F07F2086E292001268C0 /* UIViewExt.m */,
+			);
+			path = ZMLTools;
+			sourceTree = "<group>";
+		};
+		B1F1F0672086E292001268C0 /* MyAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				B1F1F0682086E292001268C0 /* MLAlbumListViewController.m */,
+				B1F1F0692086E292001268C0 /* MLSelectImageCollectionViewCell.h */,
+				B1F1F06A2086E292001268C0 /* LookImageView.m */,
+				B1F1F06B2086E292001268C0 /* MLAlbumListTableViewCell.h */,
+				B1F1F06C2086E292001268C0 /* SinglePhotoNumber.h */,
+				B1F1F06D2086E292001268C0 /* GetImageGroups.h */,
+				B1F1F06E2086E292001268C0 /* ImagePickerHelper.h */,
+				B1F1F06F2086E292001268C0 /* UIhelpTools.h */,
+				B1F1F0702086E292001268C0 /* MLSelectImageViewController.m */,
+				B1F1F0712086E292001268C0 /* MLAlbumListViewController.h */,
+				B1F1F0722086E292001268C0 /* MLAlbumHeaders.h */,
+				B1F1F0732086E292001268C0 /* MLAlbumListTableViewCell.m */,
+				B1F1F0742086E292001268C0 /* MLSelectImageCollectionViewCell.m */,
+				B1F1F0752086E292001268C0 /* LookImageView.h */,
+				B1F1F0762086E292001268C0 /* ImagePickerHelper.m */,
+				B1F1F0772086E292001268C0 /* GetImageGroups.m */,
+				B1F1F0782086E292001268C0 /* SinglePhotoNumber.m */,
+				B1F1F0792086E292001268C0 /* MLSelectImageViewController.h */,
+				B1F1F07A2086E292001268C0 /* UIhelpTools.m */,
+			);
+			path = MyAlbum;
+			sourceTree = "<group>";
+		};
+		B1F1F07C2086E292001268C0 /* MLAlertCenter */ = {
+			isa = PBXGroup;
+			children = (
+				B1F1F07D2086E292001268C0 /* MLAlertCenter.h */,
+				B1F1F07E2086E292001268C0 /* MLAlertCenter.m */,
+			);
+			path = MLAlertCenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1F1F02A2086E1B3001268C0 /* ZMLToolsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1F1F05A2086E1B4001268C0 /* Build configuration list for PBXNativeTarget "ZMLToolsDemo" */;
+			buildPhases = (
+				B1F1F0272086E1B3001268C0 /* Sources */,
+				B1F1F0282086E1B3001268C0 /* Frameworks */,
+				B1F1F0292086E1B3001268C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZMLToolsDemo;
+			productName = ZMLToolsDemo;
+			productReference = B1F1F02B2086E1B3001268C0 /* ZMLToolsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1F1F0452086E1B4001268C0 /* ZMLToolsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1F1F05D2086E1B4001268C0 /* Build configuration list for PBXNativeTarget "ZMLToolsDemoTests" */;
+			buildPhases = (
+				B1F1F0422086E1B4001268C0 /* Sources */,
+				B1F1F0432086E1B4001268C0 /* Frameworks */,
+				B1F1F0442086E1B4001268C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1F1F0482086E1B4001268C0 /* PBXTargetDependency */,
+			);
+			name = ZMLToolsDemoTests;
+			productName = ZMLToolsDemoTests;
+			productReference = B1F1F0462086E1B4001268C0 /* ZMLToolsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1F1F0502086E1B4001268C0 /* ZMLToolsDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1F1F0602086E1B4001268C0 /* Build configuration list for PBXNativeTarget "ZMLToolsDemoUITests" */;
+			buildPhases = (
+				B1F1F04D2086E1B4001268C0 /* Sources */,
+				B1F1F04E2086E1B4001268C0 /* Frameworks */,
+				B1F1F04F2086E1B4001268C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1F1F0532086E1B4001268C0 /* PBXTargetDependency */,
+			);
+			name = ZMLToolsDemoUITests;
+			productName = ZMLToolsDemoUITests;
+			productReference = B1F1F0512086E1B4001268C0 /* ZMLToolsDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1F1F0232086E1B3001268C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "赵明亮";
+				TargetAttributes = {
+					B1F1F02A2086E1B3001268C0 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					B1F1F0452086E1B4001268C0 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = B1F1F02A2086E1B3001268C0;
+					};
+					B1F1F0502086E1B4001268C0 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = B1F1F02A2086E1B3001268C0;
+					};
+				};
+			};
+			buildConfigurationList = B1F1F0262086E1B3001268C0 /* Build configuration list for PBXProject "ZMLToolsDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1F1F0222086E1B3001268C0;
+			productRefGroup = B1F1F02C2086E1B3001268C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1F1F02A2086E1B3001268C0 /* ZMLToolsDemo */,
+				B1F1F0452086E1B4001268C0 /* ZMLToolsDemoTests */,
+				B1F1F0502086E1B4001268C0 /* ZMLToolsDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1F1F0292086E1B3001268C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F1F03E2086E1B4001268C0 /* LaunchScreen.storyboard in Resources */,
+				B1F1F03B2086E1B4001268C0 /* Assets.xcassets in Resources */,
+				B1F1F0362086E1B3001268C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1F1F0442086E1B4001268C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1F1F04F2086E1B4001268C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1F1F0272086E1B3001268C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F1F08A2086E292001268C0 /* UIViewExt.m in Sources */,
+				B1F1F0872086E292001268C0 /* SinglePhotoNumber.m in Sources */,
+				B1F1F0662086E24C001268C0 /* ZMLToolsHelper.m in Sources */,
+				B1F1F0842086E292001268C0 /* MLSelectImageCollectionViewCell.m in Sources */,
+				B1F1F0862086E292001268C0 /* GetImageGroups.m in Sources */,
+				B1F1F0812086E292001268C0 /* LookImageView.m in Sources */,
+				B1F1F0852086E292001268C0 /* ImagePickerHelper.m in Sources */,
+				B1F1F0882086E292001268C0 /* UIhelpTools.m in Sources */,
+				B1F1F0802086E292001268C0 /* MLAlbumListViewController.m in Sources */,
+				B1F1F09B2086E31F001268C0 /* RegularExpression.m in Sources */,
+				B1F1F0822086E292001268C0 /* MLSelectImageViewController.m in Sources */,
+				B1F1F0992086E31F001268C0 /* UITextView+limitTextF.m in Sources */,
+				B1F1F0332086E1B3001268C0 /* ViewController.m in Sources */,
+				B1F1F0302086E1B3001268C0 /* AppDelegate.m in Sources */,
+				B1F1F0412086E1B4001268C0 /* main.m in Sources */,
+				B1F1F0982086E31F001268C0 /* UITextField+limitTextF.m in Sources */,
+				B1F1F09A2086E31F001268C0 /* Util.m in Sources */,
+				B1F1F0392086E1B3001268C0 /* ZMLToolsDemo.xcdatamodeld in Sources */,
+				B1F1F0892086E292001268C0 /* MLAlertCenter.m in Sources */,
+				B1F1F09C2086E31F001268C0 /* NSString+Category.m in Sources */,
+				B1F1F0832086E292001268C0 /* MLAlbumListTableViewCell.m in Sources */,
+				B1F1F0972086E31F001268C0 /* UIColor+HexString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1F1F0422086E1B4001268C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F1F04B2086E1B4001268C0 /* ZMLToolsDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1F1F04D2086E1B4001268C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F1F0562086E1B4001268C0 /* ZMLToolsDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1F1F0482086E1B4001268C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1F1F02A2086E1B3001268C0 /* ZMLToolsDemo */;
+			targetProxy = B1F1F0472086E1B4001268C0 /* PBXContainerItemProxy */;
+		};
+		B1F1F0532086E1B4001268C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1F1F02A2086E1B3001268C0 /* ZMLToolsDemo */;
+			targetProxy = B1F1F0522086E1B4001268C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1F1F0342086E1B3001268C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1F1F0352086E1B3001268C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1F1F03C2086E1B4001268C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1F1F03D2086E1B4001268C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1F1F0582086E1B4001268C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B1F1F0592086E1B4001268C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1F1F05B2086E1B4001268C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZMLToolsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dididoctor.doctor.ZMLToolsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1F1F05C2086E1B4001268C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZMLToolsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dididoctor.doctor.ZMLToolsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1F1F05E2086E1B4001268C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZMLToolsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dididoctor.doctor.ZMLToolsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZMLToolsDemo.app/ZMLToolsDemo";
+			};
+			name = Debug;
+		};
+		B1F1F05F2086E1B4001268C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZMLToolsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dididoctor.doctor.ZMLToolsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZMLToolsDemo.app/ZMLToolsDemo";
+			};
+			name = Release;
+		};
+		B1F1F0612086E1B4001268C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZMLToolsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dididoctor.doctor.ZMLToolsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZMLToolsDemo;
+			};
+			name = Debug;
+		};
+		B1F1F0622086E1B4001268C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZMLToolsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dididoctor.doctor.ZMLToolsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZMLToolsDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1F1F0262086E1B3001268C0 /* Build configuration list for PBXProject "ZMLToolsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1F1F0582086E1B4001268C0 /* Debug */,
+				B1F1F0592086E1B4001268C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1F1F05A2086E1B4001268C0 /* Build configuration list for PBXNativeTarget "ZMLToolsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1F1F05B2086E1B4001268C0 /* Debug */,
+				B1F1F05C2086E1B4001268C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1F1F05D2086E1B4001268C0 /* Build configuration list for PBXNativeTarget "ZMLToolsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1F1F05E2086E1B4001268C0 /* Debug */,
+				B1F1F05F2086E1B4001268C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1F1F0602086E1B4001268C0 /* Build configuration list for PBXNativeTarget "ZMLToolsDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1F1F0612086E1B4001268C0 /* Debug */,
+				B1F1F0622086E1B4001268C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B1F1F0372086E1B3001268C0 /* ZMLToolsDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B1F1F0382086E1B3001268C0 /* ZMLToolsDemo.xcdatamodel */,
+			);
+			currentVersion = B1F1F0382086E1B3001268C0 /* ZMLToolsDemo.xcdatamodel */;
+			path = ZMLToolsDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B1F1F0232086E1B3001268C0 /* Project object */;
+}
